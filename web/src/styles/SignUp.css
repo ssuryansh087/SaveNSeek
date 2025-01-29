@@ -1,0 +1,213 @@
+.leftContainer2 {
+    width: 40%;
+    height: 91vh;
+    background-color: #67a274;
+    float: left;
+    border-right: solid 3px #171717;
+    transition: 0.4s;
+}
+
+#SignUpDiv {
+    position: relative;
+    height: 126vh;
+}
+
+#loginText2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 3.5rem;
+}
+
+#nameID2 {
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    margin-top: 1%;
+}
+
+#nameInput2 {
+    margin-left: auto;
+    border: solid 3px;
+    width: 40%;
+    padding: 1% 1% 1% 1%;
+    background-color: #67a274;
+    font-size: 1.5rem;
+    border-radius: 1.4rem;
+}
+
+#nameInput2::placeholder {
+    color: black;
+}
+
+#usernameID2 {
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    margin-top: 2%;
+    transition: 0.4s;
+}
+
+#usernameInput2 {
+    margin-left: auto;
+    border: solid 3px;
+    width: 40%;
+    padding: 1% 1% 1% 1%;
+    background-color: #67a274;
+    font-size: 1.5rem;
+    border-radius: 1.4rem;
+    margin-bottom: 1%;
+    transition: 0.4s;
+}
+
+::placeholder {
+    opacity: 1;
+    color: #171717;
+}
+
+#passwordID2 {
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    transition: 0.4s;
+}
+
+#passwordInput2 {
+    margin-left: auto;
+    border: solid 3px;
+    width: 40%;
+    padding: 1% 1% 1% 1%;
+    background-color: #67a274;
+    font-size: 1.5rem;
+    border-radius: 1.4rem;
+    transition: 0.4s;
+}
+
+.toggleButton2 {
+    position: absolute;
+    z-index: 10;
+    left: 64.5%;
+    margin-left: auto;
+    margin-top: 10px;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    border: none;
+    background-color: #53503F;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 1.4rem;
+}
+
+.toggleButton2:hover {
+    background-color: #0A0908;
+    cursor: pointer;
+}
+
+#NGOTake2 {
+    position: absolute;
+    width: 20%;
+    left: 77%;
+    top: 10%;
+}
+
+#USERTake2 {
+    position: absolute;
+    width: 20%;
+    left: 44%;
+    top: 10%;
+    display: none;
+}
+
+#submitButton2 {
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #171717;
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+#submitButton2:hover {
+    border: solid 1px black;
+    background-color: whitesmoke;
+    color: #171717;
+    cursor: pointer;
+}
+
+.rightContainer2 {
+    width: 60%;
+    margin-left: 40%;
+    background-color: whitesmoke;
+    height: 0vh;
+}
+
+#newHere2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #171717;
+    margin-top: 1%;
+}
+
+#SignUpText2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #171717;
+    margin-top: 1%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.offers2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #171717;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#Logo2 {
+    width: 36%;
+    height: 34%;
+    margin-left: 32%;
+    margin-top: 3%;
+}
+
+#signUpButton2 {
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #171717;
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+#signUpButton2:hover {
+    background-color: whitesmoke;
+    color: #2d2d34;
+    cursor: pointer;
+}
+
+#LoginSwitcher2 {
+    display: flex;
+    padding-top: 15%;
+}

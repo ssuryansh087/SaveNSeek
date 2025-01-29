@@ -1,0 +1,218 @@
+body {
+    overflow-x: hidden;
+}
+
+#threat-left-div {
+    height: 91vh;
+    width: 50vw;
+    position: relative;
+}
+
+#threat-left-title {
+    font-size: 3rem;
+    margin-top: 1%;
+    text-align: center;
+    font-family: Lora;
+    font-weight: bold;
+}
+
+#threat-img1-input {
+    height: 50vh;
+    width: 80vh;
+    border-radius: 1rem;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#threat-img1-cover {
+    height: 50vh;
+    width: 80vh;
+    border-radius: 1rem;
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+    background-color: lightgreen;
+}
+
+#threat-img1 {
+    height: 50vh;
+    border-radius: 1rem;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#threat-img1-camera {
+    height: 20vh;
+    width: 20vh;
+    position: absolute;
+    left: 50%;
+    top: 39%;
+    transform: translate(-50%, -50%);
+}
+
+#threat-slider {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    color: black;
+    width: 80%;
+    cursor: pointer;
+}
+
+#threat-slider-text {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: Lora;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#threat-slider-text1 {
+    font-size: 2rem;
+    font-family: Lora;
+    position: absolute;
+    top: 80%;
+    left: 11%;
+}
+
+#threat-slider-text2 {
+    font-size: 2rem;
+    font-family: Lora;
+    position: absolute;
+    top: 82.25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#threat-slider-text3 {
+    font-size: 2rem;
+    font-family: Lora;
+    position: absolute;
+    top: 82.25%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+}
+
+#threat-right-div {
+    height: 91vh;
+    width: 50vw;
+    position: relative;
+}
+
+#threat-right-title {
+    font-size: 2.5rem;
+    margin: 0px;
+    padding-top: 3%;
+    text-align: center;
+    font-family: Lora;
+}
+
+#threat-form {
+    height: 91vh;
+    margin-top: 1%;
+    width: 99%;
+    border-radius: 1rem;
+}
+
+#threat-right-input1 {
+    font-size: 1.5rem;
+    font-family: Lora;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 3%;
+    border-radius: 1rem;
+    width: 97%;
+}
+
+#threat-right-input2 {
+    font-size: 1.5rem;
+    font-family: Lora;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 3%;
+    border-radius: 1rem;
+    width: 97%;
+    border: 2px solid black;
+}
+
+.threat-right-titles {
+    font-size: 2rem;
+    font-family: Lora;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+#threat-location-dialog {
+    width: 80%;
+    height: 70%;
+}
+
+#dialog-close {
+    font-size: 1.5rem;
+    font-family: Lora;
+    background-color: white;
+    border: 3px solid black;
+    position: absolute;
+    right: 1.5%;
+    top: 3%;
+    border-radius: 1rem;
+    padding: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    cursor: pointer;
+}
+
+#dialog-close :hover {
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+#threat-add-location {
+    font-size: 1.75rem;
+    font-family: Lora;
+    padding: 1%;
+    width: 50%;
+    margin-left: 1%;
+    border-radius: 1rem;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+#threat-add-location:hover {
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.4);
+}
+
+#threat-submit {
+    font-size: 2rem;
+    font-family: Lora;
+    padding: 1%;
+    background-color: lightgreen;
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 25%;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#threat-submit:hover {
+    box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.4);
+}
+
+#threat-selected-location {
+    font-size: 1.5rem;
+    margin: 0px;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
